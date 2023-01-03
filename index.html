@@ -65,9 +65,14 @@
           <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
           <li><a href="#path_to_file" download="proposed_file_name"><i class ="bi-download"></i> <span>Download Resume</a></a></li>
+    
 
         </ul>
       </nav><!-- .nav-menu -->
+    </div>
+    <!-- for creating scroll -->
+    <div class="scrollable"
+        style="padding:15px 15px 275px;">
     </div>
   </header><!-- End Header -->
 
@@ -77,7 +82,7 @@
       <h1>Robert Eyre</h1>
       <p>I am a <span class="typed overlay" data-typed-items="Designer, Developer, Freelancer, Musician"></span></p>
       <div class="container">
-        <video id="video" width="1920" height="1080" muted autoplay loop>
+        <video id="video" class="hero-container" width="1080" height="920" muted autoplay loop>
             <source src="assets/img/video/bg-video.mp4" type="video/mp4"/>
         </video>
       </div>
@@ -135,10 +140,7 @@
     <section id="facts" class="facts">
       <div class="container">
 
-        <div class="section-title">
-          <h2>Facts</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
+        
 
         <div class="row no-gutters">
 
@@ -185,7 +187,7 @@
 
         <div class="section-title">
           <h2>Skills</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>Proficiency with various skills based off of knowledge and experience.</p>
         </div>
 
         <div class="row skills-content">
@@ -251,8 +253,10 @@
 
         <div class="section-title">
           <h2>Resume</h2>
-          <li><a href="#path_to_file" download="proposed_file_name"><i class ="download"></i> <span>Download Resume</a></a></li>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>
+            Feel free to click the link and download my resume or in the Navagation bar.
+          </p>
+          <li><a href="#path_to_file" download="proposed_file_name"><i class ="download button"></i> <span>Download Resume</a></a></li>
         </div>
 
         <div class="row">
@@ -273,13 +277,13 @@
               <h4>Graduate  Full-Stack Developer Program </h4>
               <h5>2022 - 2023</h5>
               <p><em>Centriq, St.Louis, MO</em></p>
-              <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+              <p>Currently Enrolled in the Full-Stack Software Developer Program</p>
             </div>
             <div class="resume-item">
               <h4>High School Graduate &amp; Honor Student</h4>
               <h5>2008 - 2012</h5>
               <p><em>Windsor High School, Imperial, MO</em></p>
-              <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+              <p>I am a High School Graduate of Windsor High School</p>
             </div>
           </div>
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
@@ -318,15 +322,14 @@
 
         <div class="section-title">
           <h2>Portfolio</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>Classmates portfolio collection, feel free to check out their resumes and personal sites.</p>
         </div>
 
         <div class="row" data-aos="fade-up">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter=".filter-app">Classmates</li>
-              <li data-filter=".filter-card">Logo</li>
-              <li data-filter=".filter-web">Web</li>
+
             </ul>
           </div>
         </div>
@@ -342,7 +345,25 @@
               </div>
             </div>
           </div>
-
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/classmates/classmates-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/classmates/classmates-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Corbin Brown"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-corbin.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/classmates/classmates-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/classmates/classmates-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Gene Cathcart"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-gene.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+          
           
               </div>
             </div>
@@ -359,39 +380,41 @@
 
         <div class="section-title">
           <h2>Services</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p></p>
         </div>
 
         <div class="row">
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
             <div class="icon"><i class="bi bi-briefcase"></i></div>
             <h4 class="title"><a href="">Web Design</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            <p class="description">Highly seasoned and reliable Entry Level Web Designer with a strong work ethic and customer service and satisfaction record. 
+              Adept multitasker capable of bringing simultaneous web page creation and repair projects to completion with full accuracy and efficiency. 
+              Able to function well independently with little to no supervision or in coordination with a professional electronic media team.</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
             <div class="icon"><i class="bi bi-card-checklist"></i></div>
             <h4 class="title"><a href="">Script Writing</a></h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+            <p class="description">Video Game Scripting including Java Scripts</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
             <div class="icon"><i class="bi bi-bar-chart"></i></div>
             <h4 class="title"><a href="">Graphic Design</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            <p class="description">Very fluent in Photoshop and other creative programs</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
             <div class="icon"><i class="bi bi-binoculars"></i></div>
             <h4 class="title"><a href="">Bug Diagnostics</a></h4>
-            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            <p class="description">Troubleshooting and Diagnostics concerning games or software</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
             <div class="icon"><i class="bi bi-brightness-high"></i></div>
             <h4 class="title"><a href="">Game Design</a></h4>
-            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+            <p class="description">Graphic design or software and scripts in java or C#</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
             <div class="icon"><i class="bi bi-calendar4-week"></i></div>
             <h4 class="title"><a href="">Database Troubleshooting</a></h4>
-            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+            <p class="description">Fluent in SQL and other variuos databases, Finding and fixing issues</p>
           </div>
         </div>
 
@@ -406,7 +429,7 @@
 
         <div class="section-title">
           <h2>Contact</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>Feel free to contact me and I will do my best to respond back within a reasonable time frame. =]</p>
         </div>
 
         <div class="row" data-aos="fade-in">
